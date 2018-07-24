@@ -1,0 +1,16 @@
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 210px;
+}
+
+.carousel {
+  position: relative;
+}

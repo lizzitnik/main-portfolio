@@ -1,0 +1,52 @@
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  height: 100%;
+  display: block;
+  background-color: none;
+  border: none;
+  color: #111;
+  cursor: pointer;
+  opacity: .75;
+  transform: translateY(-50%);
+  /* transition: opacity .15s cubic-bezier(.4, 0, 1, 1); */
+}
+
+.carousel-arrow:hover {
+  opacity: .5;
+  background-color: lightgrey;
+}
+
+.carousel-arrow:focus {
+  outline: none;
+}
+
+.carousel-arrow-left {
+  left: 32px;
+  background: none;
+}
+
+.carousel-arrow-right {
+  right: 32px;
+  background: none;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 5px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.arrow-left {
+  transform: rotate(135deg);
+    -webkit-transform: rotate(135deg)
+}
+
+.arrow-right {
+  transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg)
+}

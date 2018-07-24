@@ -1,0 +1,38 @@
+.carousel-slide {
+  margin-right: auto;
+  margin-left: auto;
+  display: none;
+  max-width: 900px;
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.carousel-slide-active {
+  display: block;
+}
+
+.main-text {
+  font-family: 'Open Sans', 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-align: left;
+}
+
+.response-button {
+  margin-top: 50px;
+  font-family: 'Roboto', arial, sans-serif;
+  font-size: 20px;
+  color: green;
+}
+
+.response-button small {
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .carousel-slide {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
