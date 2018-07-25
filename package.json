@@ -19,5 +19,13 @@
   "main": "index.js",
   "devDependencies": {},
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizzitnik/main-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lizzitnik/main-portfolio/issues"
+  },
+  "homepage": "https://github.com/lizzitnik/main-portfolio#readme"
 }
